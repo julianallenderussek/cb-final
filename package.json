@@ -1,0 +1,36 @@
+{
+  "name": "proyecto_sapo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianallenderussek/proyecto_sapo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianallenderussek/proyecto_sapo/issues"
+  },
+  "homepage": "https://github.com/julianallenderussek/proyecto_sapo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
